@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Inter-Bold';
+	src: url('/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Inter-Regular';
+	src: url('/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter-Regular", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    color: white;
+    line-height: 150%;
+    letter-spacing: 0;
+}
